@@ -1,0 +1,121 @@
+#Title {
+    background-color: #0A66C2;
+}
+.container-fluid {
+    padding: 3% 15% 2%;
+}
+/* NAVBAR */
+.navbar{
+    padding: 5px 15px;
+}
+.navbar-brand{
+    font-size: 2.7rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-link{
+    padding-left: 5px;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title-img {
+    width: 60%;
+    position: relative;
+    left: 150px;
+}
+.title-heading{
+    position: relative;
+    left: 20px;
+}
+h1{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+h2{
+    font-size: 4.5rem;
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-size: 2rem;
+    margin-top: 9px;
+}
+p{
+    font-size: 1.3rem;
+}
+
+/* FEATURES */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+}
+.feature-box{
+    text-align: center;
+}
+.feature-icon{
+    font-size: 100px;
+    color: #0A66C2;
+}
+.feature-icon:hover{
+    color: rgb(0, 187, 187);
+}
+
+/* FEATURED COMPANIES */
+#Featured-Companies{
+    padding: 3% 0;
+    text-align: center;
+    background-color: #0A66C2;
+}
+
+/* ABOUT */
+
+#about{
+    padding: 3% 15%;
+    text-align: center;
+    background-color: white;
+}
+.name{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.name:hover{
+    color: #0A66C2;
+}
+.team{
+    color: black;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: #0A66C2;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 7px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.foot-icon {
+    margin: 5px 6px;
+}
+
+/* Media Query */
+@media (max-width:1080px) {
+
+    .title-heading {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
